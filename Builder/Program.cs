@@ -19,7 +19,7 @@ namespace Builder
             House brickHouse = architect.Design(builder);
             Console.WriteLine(brickHouse.ToString());
 
-            Console.Read();
+            Console.ReadLine();
         }
     }
     // абстрактный класс строителя
